@@ -1,4 +1,4 @@
-package Entity;
+package com.example.UploadDownloadRestAPI.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package Controller;
+package com.example.UploadDownloadRestAPI.Controller;
 
-import Entity.Attachment;
-import Model.ResponseData;
+import com.example.UploadDownloadRestAPI.Entity.Attachment;
+import com.example.UploadDownloadRestAPI.Model.ResponseData;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import service.AttachmentService;
+import com.example.UploadDownloadRestAPI.service.AttachmentService;
 
 @RestController
 public class AttachmentController {

@@ -1,12 +1,10 @@
-package service;
+package com.example.UploadDownloadRestAPI.service;
 
-import Entity.Attachment;
-import Repository.AttachmentRepo;
+import com.example.UploadDownloadRestAPI.Entity.Attachment;
+import com.example.UploadDownloadRestAPI.Repository.AttachmentRepo;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.io.IOException;
 
 @Service
 public class AttachmentServiceImpl implements AttachmentService{

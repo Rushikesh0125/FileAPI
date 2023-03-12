@@ -1,6 +1,6 @@
-package service;
+package com.example.UploadDownloadRestAPI.service;
 
-import Entity.Attachment;
+import com.example.UploadDownloadRestAPI.Entity.Attachment;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface AttachmentService {

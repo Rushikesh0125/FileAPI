@@ -1,4 +1,4 @@
-package Model;
+package com.example.UploadDownloadRestAPI.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
